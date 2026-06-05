@@ -19,7 +19,7 @@
 [![Open Access](https://img.shields.io/badge/open%20access-yes-success?style=flat-square)](#)
 [![Indexed in](https://img.shields.io/badge/indexed%20in-OpenAIRE-orange?style=flat-square)](#)
 
-**[📄 Read the Thesis](ASPS_Research_Thesis_V4_Final.pdf)** · **[🔗 Cite via DOI](https://doi.org/10.5281/zenodo.20549569)** · **[🧭 Framework Domains](#-the-eleven-governance-domains)** · **[🗺️ Maturity Model](#️-the-asps-maturity-model)**
+**[📖 Documentation Site](https://chavaraghunath.github.io/ASPS/)** · **[📄 Read the Thesis](ASPS_Research_Thesis_V4_Final.pdf)** · **[🔗 Cite via DOI](https://doi.org/10.5281/zenodo.20549569)** · **[🧭 Framework Domains](#-the-eleven-governance-domains)** · **[🗺️ Maturity Model](#️-the-asps-maturity-model)**
 
 </div>
 

@@ -6,15 +6,16 @@ abstract: >-
   enterprise software production. It introduces the CTQOST-R optimization model
   (correctness per unit cost and time under Quality, Operability, Security, Trust,
   and Reversibility constraints) and Reversibility-by-Design as production invariants.
+type: dataset
 authors:
   - family-names: Chava
     given-names: Raghunath
-type: report
-version: v4
-date-released: 2026-06-05
+version: "v4"
+date-released: "2026-06-05"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.20549569
 url: "https://doi.org/10.5281/zenodo.20549569"
+repository-code: "https://github.com/chavaraghunath/ASPS"
 keywords:
   - ASPS
   - CTQOST-R
@@ -26,7 +27,20 @@ keywords:
 identifiers:
   - type: doi
     value: 10.5281/zenodo.20549569
-    description: Concept DOI (always resolves to the latest version)
+    description: "Concept DOI (always resolves to the latest version)"
   - type: doi
     value: 10.5281/zenodo.20549570
-    description: Version DOI for v4
+    description: "Version DOI for v4"
+preferred-citation:
+  type: report
+  title: "AI Software Production Systems (ASPS) — Research Thesis V4"
+  authors:
+    - family-names: Chava
+      given-names: Raghunath
+  year: 2026
+  month: 6
+  institution:
+    name: "Zenodo"
+  doi: 10.5281/zenodo.20549569
+  url: "https://doi.org/10.5281/zenodo.20549569"
+  license: CC-BY-4.0

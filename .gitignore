@@ -11,6 +11,12 @@ assets/_preview.png
 *.tmp.*
 LICENSE.tmp
 
+# ─── MkDocs build output (generated; deployed to gh-pages) ─
+site/
+
+# ─── Wiki source (canonical home is the ASPS.wiki.git repo) ─
+wiki/
+
 # ─── Local session memory ─────────────────────────────────
 .remember/
 

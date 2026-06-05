@@ -1,0 +1,103 @@
+site_name: AI Software Production Systems (ASPS)
+site_description: >-
+  A trustworthy, reversible, governed architecture for autonomous enterprise
+  software production. CTQOST-R optimization model and Reversibility-by-Design
+  as production invariants.
+site_author: Raghunath Chava
+site_url: https://chavaraghunath.github.io/ASPS/
+
+repo_name: chavaraghunath/ASPS
+repo_url: https://github.com/chavaraghunath/ASPS
+edit_uri: edit/main/docs/
+
+copyright: >-
+  © 2026 Raghunath Chava · Licensed CC BY 4.0 ·
+  <a href="https://doi.org/10.5281/zenodo.20549569">DOI 10.5281/zenodo.20549569</a>
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Foundations:
+      - Core Concepts: core-concepts.md
+      - CTQOST-R Optimization Model: ctqost-r.md
+      - Reversibility by Design: reversibility-by-design.md
+      - Differentiation: differentiation.md
+  - Architecture:
+      - The Eleven Governance Domains: eleven-governance-domains.md
+      - Reference Architecture: reference-architecture.md
+  - Operating the Framework:
+      - Maturity Model: maturity-model.md
+      - Adoption Roadmap: adoption-roadmap.md
+      - Anti-Patterns: anti-patterns.md
+  - Reference:
+      - FAQ: faq.md
+      - Glossary: glossary.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chavaraghunath/ASPS
+    - icon: fontawesome/solid/book
+      link: https://doi.org/10.5281/zenodo.20549569
+      name: Read the thesis (DOI)

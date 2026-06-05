@@ -1,0 +1,3 @@
+# ASPS documentation site (MkDocs Material)
+mkdocs-material>=9.5,<10
+pymdown-extensions>=10
