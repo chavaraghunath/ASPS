@@ -1,0 +1,28 @@
+# ─── Secrets — NEVER commit ───────────────────────────────
+.env
+.env.*
+*.pat
+*token*
+
+# ─── Local working artifacts (screenshots, previews) ──────
+page_previews/
+assets/_preview.png
+*.tmp
+*.tmp.*
+LICENSE.tmp
+
+# ─── Local session memory ─────────────────────────────────
+.remember/
+
+# ─── Superseded / unnecessary source files ────────────────
+# Old pre-fix draft (superseded by ASPS_Research_Thesis_V4_Final.pdf)
+ASPS_Research_Thesis_V4.pdf
+# Portrait image for LinkedIn only — not used in the repo
+ASPS_cover.png
+
+# ─── OS / editor cruft ────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

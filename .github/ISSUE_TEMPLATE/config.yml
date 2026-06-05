@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussion
+    url: https://github.com/chavaraghunath/ASPS/discussions
+    about: For open-ended questions, ideas, or sharing how you applied ASPS, start a Discussion.
+  - name: 📄 Read the thesis (Zenodo)
+    url: https://doi.org/10.5281/zenodo.20549569
+    about: The full, citable ASPS Research Thesis V4 (CC BY 4.0).
