@@ -1,8 +1,8 @@
-<div align="center">
+<div markdown="1" align="center">
 
-<img src="assets/banner.png" alt="AI Software Production Systems (ASPS)" width="100%"/>
+![AI Software Production Systems (ASPS)](assets/banner.png){ width="100%" }
 
-# AI Software Production Systems (ASPS) — Wiki
+# AI Software Production Systems (ASPS)
 
 **A Trustworthy, Reversible, Governed Architecture for Autonomous Enterprise Software Production**
 
@@ -13,7 +13,7 @@
 
 ---
 
-Welcome to the official knowledge base for **ASPS**. This wiki distills the [full research thesis](https://doi.org/10.5281/zenodo.20549569) into navigable, reference-grade pages for architects, engineering leaders, and researchers.
+Welcome to the official documentation for **ASPS**. This site distills the [full research thesis](https://doi.org/10.5281/zenodo.20549569) into navigable, reference-grade pages for architects, engineering leaders, and researchers.
 
 ## 🎯 The thesis in one sentence
 

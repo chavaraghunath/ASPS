@@ -4,9 +4,9 @@ ASPS organizes autonomous production into **eleven interdependent governance dom
 
 > **A weak domain lowers the trustworthiness of the entire production system.** No domain is optional for regulated, high-scale, or mission-critical use.
 
-<div align="center">
-<img src="assets/eleven-domains.svg" alt="The Eleven Governance Domains radial diagram" width="760"/>
-</div>
+<figure markdown="span">
+  ![The Eleven Governance Domains radial diagram](assets/eleven-domains.svg){ width="760" }
+</figure>
 
 ---
 
